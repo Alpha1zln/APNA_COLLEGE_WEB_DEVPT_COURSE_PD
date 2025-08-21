@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit a post</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/styleNew.css">
+     <style>
+        #h3Show{
+            text-align: center;
+            font-weight: bolder;
+        }
+        #p{
+            text-align: center; 
+            font-weight: bold;
+            color: maroon;
+        }
+        #EditText{
+            text-align: left;
+        }
+        .container{
+            /* margin: 10px; */
+            padding: 4%;
+        }
+        #textareaId{
+            background-color: rgb(249, 243, 204);
+        }
+    </style>
+</head>
+<body>
+        <h1>Being Social </h1>
+        <hr>
+        <!-- *************** -->
+        <div class="container">
+            <h2 id="h3Show">Edit post : </h2>
+            <h4 id="pId">Post id : <%= post.id %> </h4>
+            <h4 id="pUser">Post username : <%= post.username %> </h4>
+
+            <div id="EditForm">
+                <form method="POST" action="/posts/<%= post.id %>?_method=PATCH">
+                    <textarea id="textareaId" name="content"  placeholder="Edit Post" 
+                    rows="7" cols="50"><%= post.content %>
+                    </textarea>
+                    <br><br>
+                    <button id="btn">Update </button>
+                </form>
+            </div> 
+            
+        </div>
+</body>
+</html>

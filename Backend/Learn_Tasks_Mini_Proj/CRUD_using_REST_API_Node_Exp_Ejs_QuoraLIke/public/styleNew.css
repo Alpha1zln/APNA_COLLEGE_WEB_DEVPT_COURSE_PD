@@ -1,0 +1,58 @@
+
+h1{
+    text-align: center;
+
+}
+
+.outerContainerNewPost{
+    background-color: darksalmon;
+    color: black;
+
+    margin: 0 auto;
+    padding:  0 auto;
+
+    width : 700px;
+    height: 520px;
+}
+
+
+.formNewPost{
+    margin: 0 auto;
+    padding : 0 auto;
+
+    background-color: rgb(214, 122, 76);
+        width : 400px;
+        height: 300px;
+    padding: 4%;
+    padding-top: 10%;
+    /* padding : 4%; */
+
+}
+
+
+.NewContent{
+        width : 300px;
+        height: 200px;
+}
+
+#username{
+        width : 150px;
+        height: 30px;
+        background-color: rgb(223, 211, 169);
+}
+
+#btn{
+        width : 90px;
+        height: 25px;
+        /* font-weight: bold; */
+        background-color: rgb(219, 191, 154);
+}
+
+
+#contentTextarea{
+        width : 300px;
+        height: 80px;
+            background-color: rgb(237, 215, 170);
+        
+}
+
