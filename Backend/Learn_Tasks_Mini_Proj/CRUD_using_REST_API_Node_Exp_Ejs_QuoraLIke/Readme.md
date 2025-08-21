@@ -58,6 +58,9 @@ app.get("/posts", (req,res) => {         // 5
     res.render("index.ejs", {posts});   // 6     // 7
 }) ;
 
+op: 
+<img src="op img/index_route_index.ejs.png" alt="Output Screenshot" width="500"/>
+
 ****************************************
 
 
@@ -77,6 +80,8 @@ app.get("/posts/:id", (req, res) => {
     res.render("show.ejs", {post});
 });
 
+op: 
+<img src="op img/show_route_indiv_post2.png" alt="Output Screenshot" width="500"/>
 
 ****************************************
 
@@ -102,6 +107,8 @@ app.post("/posts", (req, res) => {
     res.redirect("/posts"); // redirect // to /posts api
 });
 
+op: 
+<img src="op img/NEW_ROUTE_NEW.EJS.png" alt="Output Screenshot" width="500"/>
 
 ****************************************
 
@@ -134,6 +141,8 @@ app.patch("/posts/:id", (req, res) => {
     res.redirect("/posts");
 });
 
+op: 
+<img src="op img/EDIT_ROUTE_EDIT_JS.png" alt="Output Screenshot" width="500"/>
 
 ****************************************
 
@@ -154,6 +163,9 @@ app.delete("/posts/:id", (req, res) => {
     posts = posts.filter( (p) => p.id !== id);
     res.redirect("/posts");
 });
+
+op: 
+<img src="op img/DEL_ROUTE_DEL.EJS.png" alt="Output Screenshot" width="500"/>
 
 ****************************************
 
