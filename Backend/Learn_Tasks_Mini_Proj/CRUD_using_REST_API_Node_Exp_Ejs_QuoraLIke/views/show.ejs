@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show individual post</title>
+    <link rel="stylesheet" href="/style.css">
+    <!-- <link rel="stylesheet" href="/styleNew.css"> -->
+    <style>
+        #h3Show{
+            text-align: center;
+            font-weight: bolder;
+        }
+        #p{
+            text-align: center; 
+            font-weight: bold;
+            color: maroon;
+        }
+    </style>
+</head>
+<body>
+        <h1>Being Social </h1>
+        <hr>
+        <!-- *************** -->
+        <div class="container">
+            <h2 id="h3Show">Here is your post in detail : </h2>
+            <h3 id="p">Post id : <%= post.id %> </h3>
+            <div class="post">
+                <h3 class="user">@ <%= post.username %> </h3>
+                <h4>@ <%= post.content %></h4>
+            </div>
+        </div>
+</body>
+</html>
