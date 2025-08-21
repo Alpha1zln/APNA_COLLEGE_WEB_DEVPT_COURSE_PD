@@ -59,7 +59,7 @@ app.get("/posts", (req,res) => {         // 5
 }) ;
 
 op: 
-<img src="op img/index_route_index.ejs.png" alt="Output Screenshot" width="500"/>
+<img src="op img/index_route_index.ejs.png" alt="Output Screenshot" width="800"/>
 
 ****************************************
 
@@ -81,7 +81,7 @@ app.get("/posts/:id", (req, res) => {
 });
 
 op: 
-<img src="op img/show_route_indiv_post2.png" alt="Output Screenshot" width="500"/>
+<img src="op img/show_route_indiv_post2.png" alt="Output Screenshot" width="800"/>
 
 ****************************************
 
@@ -108,7 +108,7 @@ app.post("/posts", (req, res) => {
 });
 
 op: 
-<img src="op img/NEW_ROUTE_NEW.EJS.png" alt="Output Screenshot" width="500"/>
+<img src="op img/NEW_ROUTE_NEW.EJS.png" alt="Output Screenshot" width="800"/>
 
 ****************************************
 
@@ -142,7 +142,7 @@ app.patch("/posts/:id", (req, res) => {
 });
 
 op: 
-<img src="op img/EDIT_ROUTE_EDIT_JS.png" alt="Output Screenshot" width="500"/>
+<img src="op img/EDIT_ROUTE_EDIT_JS.png" alt="Output Screenshot" width="800"/>
 
 ****************************************
 
@@ -165,7 +165,7 @@ app.delete("/posts/:id", (req, res) => {
 });
 
 op: 
-<img src="op img/DEL_ROUTE_DEL.EJS.png" alt="Output Screenshot" width="500"/>
+<img src="op img/DEL_ROUTE_DEL.EJS.png" alt="Output Screenshot" width="800"/>
 
 ****************************************
 
